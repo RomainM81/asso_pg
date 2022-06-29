@@ -1,6 +1,11 @@
+import NavBar from "../../components/NavBar/NavBar";
+
+import './HomePage.css'
+
 const HomePage = () => {
     return ( 
-        <div>
+        <div className="home-container">
+            <NavBar />
             <p>HOME PAGE</p>
         </div>
      );
