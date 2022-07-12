@@ -6,7 +6,7 @@ const NavBar = () => {
     return ( 
         <div className="nav-bar">
             <ul>
-                <NavLink to='/' className={'navlink'}><li>Liste des Membres</li></NavLink>
+                <NavLink to='/members' className={'navlink'}><li>Liste des Membres</li></NavLink>
                 <NavLink to='/' className={'navlink'}><li>Sponsors</li></NavLink>
                 <NavLink to='/' className={'navlink'}><li>Coté Presse</li></NavLink>
                 <NavLink to='/' ><img className={'nav-logo'} src={require('./../../assets/logo_pg.jpg')} alt=""></img></NavLink>
