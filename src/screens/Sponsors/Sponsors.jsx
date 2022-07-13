@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios"
 
 import './Sponsors.css'
+import NavBar from "../../components/NavBar/NavBar";
 
 const Sponsors = () => {
 
@@ -20,15 +21,18 @@ const Sponsors = () => {
 
 
     return ( 
-        <div>
-            <h1>Sponsors</h1>
-            {sponsors.length > 0
-            ? sponsors.map((s) => 
-                <p>{s.sponsor_name}</p>
-            ) 
-            : null
-            }
-        </div>
+        <>
+            <NavBar />
+            <div>
+                <h1>Sponsors</h1>
+                {sponsors.length > 0
+                ? sponsors.map((s) => 
+                    <p>{s.sponsor_name}</p>
+                ) 
+                : null
+                }
+            </div>
+        </>
      );
 }
  

@@ -1,8 +1,13 @@
+import NavBar from "../../components/NavBar/NavBar";
+
 const Tournament = () => {
     return ( 
-        <div>
-            <h1>Le Tournoi</h1>
-        </div>
+        <>
+            <NavBar />
+            <div>
+                <h1>Le Tournoi</h1>
+            </div>
+        </>
      );
 }
  

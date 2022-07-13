@@ -1,8 +1,13 @@
+import NavBar from "../../components/NavBar/NavBar";
+
 const AssociationDay = () => {
     return ( 
-        <div>
-            <h1>La journée des Associations</h1>
-        </div>
+        <>
+            <NavBar />
+            <div>
+                <h1>La journée des Associations</h1>
+            </div>
+        </>
      );
 }
  

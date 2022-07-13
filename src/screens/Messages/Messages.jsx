@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios"
 
 import './Messages.css'
+import NavBar from "../../components/NavBar/NavBar";
 
 const Messages = () => {
 
@@ -19,17 +20,20 @@ const Messages = () => {
     }, [])
 
     return ( 
-        <div>
-            <h1>
-                Livre D'Or
-            </h1>
-            {messages.length > 0
-            ? messages.map((m) => 
-                <p>{m.message_text}</p>
-            ) 
-            : null
-            }
-        </div>
+        <>
+            <NavBar />
+            <div>
+                <h1>
+                    Livre D'Or
+                </h1>
+                {messages.length > 0
+                ? messages.map((m) => 
+                    <p>{m.message_text}</p>
+                ) 
+                : null
+                }
+            </div>
+        </>
      );
 }
  
