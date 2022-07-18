@@ -1,4 +1,5 @@
 import NavBar from "../../components/NavBar/NavBar";
+import Presentation from "../../components/Presentation/Presentation";
 
 import './HomePage.css'
 
@@ -6,7 +7,7 @@ const HomePage = () => {
     return ( 
         <div className="home-container">
             <NavBar />
-            <p>HOME PAGE</p>
+            <Presentation />
         </div>
      );
 }
