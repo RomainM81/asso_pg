@@ -12,7 +12,7 @@ const Presentation = () => {
                     </NavLink>
                 </div>
             </div>
-            <p className='pres-txt'>Depuis 2003, afin de perpétuer le souvenir de Guillaume, vice-président et joueur du Handball Club Champsaur Valgaudemar (HBCCV), un tournoi ouvert à tous, jeunes et moins jeunes, licencié(e)s et non licencié(e)s, a été créé par les membres du club.</p>
+            <div className='pres-txt'>Depuis 2003, afin de perpétuer le souvenir de Guillaume, vice-président et joueur du Handball Club Champsaur Valgaudemar (HBCCV), un tournoi ouvert à tous, jeunes et moins jeunes, licencié(e)s et non licencié(e)s, a été créé par les membres du club.</div>
         </div>
      );
 }
