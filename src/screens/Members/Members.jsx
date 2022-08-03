@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 
 import axios from "axios"
 
-import './Members.css'
+import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
+
+import './Members.css'
 
 const Members = () => {
 
@@ -31,6 +33,7 @@ const Members = () => {
                 : null
                 }
             </div>
+            <Footer />
         </>
      );
 }
