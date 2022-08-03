@@ -4,3 +4,10 @@
     height: 100vh;
     width: 100vw;
 }
+
+.home-row {
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
