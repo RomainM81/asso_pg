@@ -1,0 +1,20 @@
+.banner-container {
+    position: relative;
+    margin-top: 50px;
+    height: auto;
+    /* z-index: 5; */
+}
+
+.banner-img {
+    width: 95vw;
+    height: 70vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    box-shadow: 0px 0px 8px -3px black;
+}
+
+.alice-carousel__wrapper {
+    object-fit: contain;
+}
