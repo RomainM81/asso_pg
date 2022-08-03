@@ -1,0 +1,12 @@
+:root {
+    --primary-color: rgb(180, 7, 52);
+    /* --bg-color-beige: #faf0e6; */
+    /* --font-typo-title: 'Titillium Web 900', sans-serif;
+    --font-typo-subtitle: 'Titillium Web 400', sans-serif;
+    --font-typo-text: 'Titillium Web 200', sans-serif; */
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
