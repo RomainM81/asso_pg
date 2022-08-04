@@ -1,4 +1,5 @@
 import NavBar from "../../components/NavBar/NavBar";
+import TeamBanner from "../../components/TeamBanner/TeamBanner";
 
 const Gallery = () => {
     return ( 
@@ -7,6 +8,7 @@ const Gallery = () => {
             <div>
                 <h1>Galerie</h1>
             </div>
+            <TeamBanner />
         </>
      );
 }
