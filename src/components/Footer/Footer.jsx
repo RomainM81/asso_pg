@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 import './Footer.css'
 
@@ -15,15 +16,26 @@ const Footer = () => {
                     target='_blank'
                     rel='noreferrer'><img className='footer-logo' src={require("./../../assets/logo-nobg.png")} alt="PourGuillaume"></img>
                 </a>
-                <a 
-                    href='https://www.facebook.com/PourGuillaume/'
-                    target='_blank'
-                    rel='noreferrer'
-                >
-                    <div className='footer-fcb'>
-                        <FacebookIcon sx={{ fontSize: 80 }}/>
-                    </div>
-                </a>
+                <div className='footer-icons-container'>
+                    <a
+                        href='https://www.facebook.com/PourGuillaume/'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <div className='footer-icon'>
+                            <FacebookIcon sx={{ fontSize: 80 }}/>
+                        </div>
+                    </a>
+                    <a
+                        href='https://instagram.com/associationpourguillaume?igshid=YmMyMTA2M2Y='
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <div className='footer-icon'>
+                            <InstagramIcon sx={{ fontSize: 80 }}/>
+                        </div>
+                    </a>
+                </div>
                 <div className='footer-button'>
                     <PhoneInTalkIcon></PhoneInTalkIcon>
                     <p>06 70 63 65 02</p>
@@ -33,17 +45,20 @@ const Footer = () => {
                     <p>tournoiguillaume@hotmail.fr</p>
                 </div>
             </div>
-            {/* <div className='footer-column'>
+            <div className='footer-list'>
                 <ul>
-                    <NavLink to='/members' className={'navlink'}><li>Liste des Membres</li></NavLink>
-                    <NavLink to='/sponsors' className={'navlink'}><li>Sponsors</li></NavLink>
-                    <NavLink to='/press' className={'navlink'}><li>Coté Presse</li></NavLink>
-                    <NavLink to='/dons' className={'navlink'}><li>La journée des Associations</li></NavLink>
-                    <NavLink to='/tournoi' className={'navlink'}><li>Le tournoi</li></NavLink>
-                    <NavLink to='/galerie' className={'navlink'}><li>Galerie</li></NavLink>
-                    <NavLink to='/messages' className={'navlink'}><li>Nous Contacter</li></NavLink>
+                    <NavLink to='/' className={'footer-navlink'}><li>Accueil</li></NavLink>
+                    <NavLink to='/sponsors' className={'footer-navlink'}><li>Sponsors</li></NavLink>
+                    <NavLink to='/dons' className={'footer-navlink'}><li>La journée des Associations</li></NavLink>
+                    <NavLink to='/tournoi' className={'footer-navlink'}><li>Le tournoi</li></NavLink>
+                    <NavLink to='/galerie' className={'footer-navlink'}><li>Galerie</li></NavLink>
                 </ul>
-            </div> */}
+            </div>
+            <div className='footer-contact'>
+                <div className='footer-contact-btn'>
+                    <NavLink to='/message'><p>Nous Contacter</p></NavLink>
+                </div>
+            </div>
         </div>
      );
 }
