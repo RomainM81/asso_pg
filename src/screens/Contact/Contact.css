@@ -1,0 +1,17 @@
+form > div {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 1rem;
+}
+
+form > div > label {
+    margin: 1rem;
+}
+
+form > div > input,
+form > div > textarea {
+    padding: O.5rem;
+    min-width: 20rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

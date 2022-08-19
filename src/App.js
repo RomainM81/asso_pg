@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import AssociationDay from './screens/AssociationDay/AssociationDay';
 
+import AssociationDay from './screens/AssociationDay/AssociationDay';
+import Contact from './screens/Contact/Contact';
 import Gallery from './screens/Gallery/Gallery';
 import HomePage from './screens/HomePage/HomePage';
 import Members from './screens/Members/Members';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/tournoi' element={<Tournament />} />
         <Route path='/galerie' element={<Gallery />} />
         <Route path='/dons' element={<AssociationDay />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
