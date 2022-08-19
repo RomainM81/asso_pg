@@ -20,7 +20,7 @@ const NavBar = () => {
                 <NavLink to='/dons' className={'navlink'}><li>La journée des Associations</li></NavLink>
                 <NavLink to='/tournoi' className={'navlink'}><li>Le tournoi</li></NavLink>
                 <NavLink to='/galerie' className={'navlink'}><li>Galerie</li></NavLink>
-                <NavLink to='/messages' className={'navlink'}><li>Nous Contacter</li></NavLink>
+                <NavLink to='/contact' className={'navlink'}><li>Nous Contacter</li></NavLink>
             </div>
             <div className="menu-icon">
                 <MenuIcon onClick={() => setBurgerStatus(true)}>
